@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="meta_colsetting">
+<config key="meta_string">
+<entry key="miss_method" type="xint" value="-1"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="meta_other">
+<entry key="miss_method" type="xint" value="0"/>
+<entry key="col_types" type="xint" value="-1"/>
+</config>
+</config>
+<config key="individual_colsetting">
+<config key="wyksztaĹ‚cenie">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="wyksztaĹ‚cenie"/>
+</config>
+<entry key="miss_method" type="xint" value="1"/>
+<entry key="col_types" type="xint" value="2"/>
+<config key="fix_val">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="BrakWyksztalcenia"/>
+</config>
+</config>
+</config>
+<config key="wiek">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="wiek"/>
+</config>
+<entry key="miss_method" type="xint" value="0"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="osoby na utrzymaniu">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="osoby na utrzymaniu"/>
+</config>
+<entry key="miss_method" type="xint" value="5"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="dochĂłd rodziny">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="dochĂłd rodziny"/>
+</config>
+<entry key="miss_method" type="xint" value="5"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="pochodzenie">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="pochodzenie"/>
+</config>
+<entry key="miss_method" type="xint" value="0"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="profil-kierunek">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="profil-kierunek"/>
+</config>
+<entry key="miss_method" type="xint" value="0"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="pĹ‚eÄ‡">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="pĹ‚eÄ‡"/>
+</config>
+<entry key="miss_method" type="xint" value="0"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="status bezrobotnego">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="status bezrobotnego"/>
+</config>
+<entry key="miss_method" type="xint" value="0"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="okres bycia bezrobotnym">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="okres bycia bezrobotnym"/>
+</config>
+<entry key="miss_method" type="xint" value="5"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="rodzaj ukoĹ„czonej szkoĹ‚y">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="rodzaj ukoĹ„czonej szkoĹ‚y"/>
+</config>
+<entry key="miss_method" type="xint" value="0"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="iloĹ›Ä‡ absolwentĂłw">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="iloĹ›Ä‡ absolwentĂłw"/>
+</config>
+<entry key="miss_method" type="xint" value="0"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="nazwa szkoĹ‚y">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="nazwa szkoĹ‚y"/>
+</config>
+<entry key="miss_method" type="xint" value="0"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="okres budowy mieszkania">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="okres budowy mieszkania"/>
+</config>
+<entry key="miss_method" type="xint" value="0"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="ostatnia praca">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="ostatnia praca"/>
+</config>
+<entry key="miss_method" type="xint" value="0"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="osĂłb na izbÄ™">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="osĂłb na izbÄ™"/>
+</config>
+<entry key="miss_method" type="xint" value="5"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="wodociÄ…gi">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="wodociÄ…gi"/>
+</config>
+<entry key="miss_method" type="xint" value="5"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="powierzchnia na osobÄ™">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="powierzchnia na osobÄ™"/>
+</config>
+<entry key="miss_method" type="xint" value="5"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="Ĺ‚azienka">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="Ĺ‚azienka"/>
+</config>
+<entry key="miss_method" type="xint" value="5"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="ciepĹ‚a woda">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="ciepĹ‚a woda"/>
+</config>
+<entry key="miss_method" type="xint" value="5"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="gaz">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="gaz"/>
+</config>
+<entry key="miss_method" type="xint" value="5"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="niepeĹ‚nosprawnoĹ›Ä‡">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="niepeĹ‚nosprawnoĹ›Ä‡"/>
+</config>
+<entry key="miss_method" type="xint" value="5"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="stan cywilny">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="stan cywilny"/>
+</config>
+<entry key="miss_method" type="xint" value="0"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="rodzaj ogrzewania">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="rodzaj ogrzewania"/>
+</config>
+<entry key="miss_method" type="xint" value="5"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+<config key="ilosc izb">
+<config key="col_names">
+<entry key="array-size" type="xint" value="1"/>
+<entry key="0" type="xstring" value="ilosc izb"/>
+</config>
+<entry key="miss_method" type="xint" value="5"/>
+<entry key="col_types" type="xint" value="2"/>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.missingval.MissingValueHandling3NodeFactory"/>
+<entry key="node-name" type="xstring" value="Missing Value"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-bundle-version" type="xstring" value="2.11.3.0046666"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Missing Value"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 750000, Cols: 24"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="72ada1e0-34a1-4489-a346-64e6b56caed4"/>
+</config>
+</config>

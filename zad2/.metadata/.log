@@ -1,0 +1,9 @@
+!SESSION 2015-05-03 17:52:14.180 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\Dominik\Documents\GitHub\ed\zad2
+
+!ENTRY org.eclipse.ui 4 4 2015-05-03 17:52:16.655
+!MESSAGE Plug-in 'org.knime.workbench.ui' contributed an invalid Menu Extension (Path: 'view' is invalid): org.knime.workbench.ui.openLogfile
