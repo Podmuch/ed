@@ -4,3 +4,9 @@ c:\users\dominik\documents\visual studio 2013\Projects\generator_ed\generator_ed
 c:\users\dominik\documents\visual studio 2013\Projects\generator_ed\generator_ed\obj\Debug\generator_ed.csprojResolveAssemblyReference.cache
 c:\users\dominik\documents\visual studio 2013\Projects\generator_ed\generator_ed\obj\Debug\generator_ed.exe
 c:\users\dominik\documents\visual studio 2013\Projects\generator_ed\generator_ed\obj\Debug\generator_ed.pdb
+C:\Users\Dominik\Documents\GitHub\ed\generator_ed\generator_ed\bin\Debug\generator_ed.exe.config
+C:\Users\Dominik\Documents\GitHub\ed\generator_ed\generator_ed\obj\Debug\generator_ed.exe
+C:\Users\Dominik\Documents\GitHub\ed\generator_ed\generator_ed\obj\Debug\generator_ed.pdb
+C:\Users\Dominik\Documents\GitHub\ed\generator_ed\generator_ed\bin\Debug\generator_ed.exe
+C:\Users\Dominik\Documents\GitHub\ed\generator_ed\generator_ed\bin\Debug\generator_ed.pdb
+C:\Users\Dominik\Documents\GitHub\ed\generator_ed\generator_ed\obj\Debug\generator_ed.csprojResolveAssemblyReference.cache

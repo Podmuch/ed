@@ -43,3 +43,540 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.ui 4 4 2015-05-03 20:19:14.118
 !MESSAGE Plug-in 'org.knime.workbench.ui' contributed an invalid Menu Extension (Path: 'view' is invalid): org.knime.workbench.ui.openLogfile
+!SESSION 2015-05-04 15:20:31.321 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2015-05-04 15:21:42.010
+!MESSAGE Plug-in 'org.knime.workbench.ui' contributed an invalid Menu Extension (Path: 'view' is invalid): org.knime.workbench.ui.openLogfile
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 2 0 2015-05-04 15:55:06.764
+!MESSAGE Error parsing metadata repository
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2015-05-04 15:55:06.764
+!MESSAGE Error in file:/C:/Program Files/KNIME_SDK_2.11.3/p2/org.eclipse.equinox.p2.repository/cache/content-312297966.jar at line 42550, column 144: Illegal value for attribute "range" of element "required": [2.9.1.0041076,2.9.0.0041076]
+!SESSION 2015-05-07 22:18:35.666 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2015-05-07 22:19:16.062
+!MESSAGE Plug-in 'org.knime.workbench.ui' contributed an invalid Menu Extension (Path: 'view' is invalid): org.knime.workbench.ui.openLogfile
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 2 0 2015-05-07 22:23:25.885
+!MESSAGE Error parsing metadata repository
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2015-05-07 22:23:25.885
+!MESSAGE Error in file:/C:/Program Files/KNIME_SDK_2.11.3/p2/org.eclipse.equinox.p2.repository/cache/content-312297966.jar at line 42550, column 144: Illegal value for attribute "range" of element "required": [2.9.1.0041076,2.9.0.0041076]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-07 22:32:45.266
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:32:45.266
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.266
+!MESSAGE Software being installed: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.features.quickform.feature.group 2.9.1.0041076)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.266
+!MESSAGE Software currently installed: KNIME SDK 2.11.2.0046668 (org.knime.features.sdk.feature.group 2.11.2.0046668)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:32:45.266
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.266
+!MESSAGE KNIME Core Utility Plugin 4.5.0.0040933 (org.knime.core.util 4.5.0.0040933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.266
+!MESSAGE KNIME Core Utility Plugin 4.5.0.0040613 (org.knime.core.util 4.5.0.0040613)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.266
+!MESSAGE KNIME Core Utility Plugin 5.0.0.0045367 (org.knime.core.util 5.0.0.0045367)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.266
+!MESSAGE KNIME Core Utility Plugin 4.5.1.0041140 (org.knime.core.util 4.5.1.0041140)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:32:45.266
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.266
+!MESSAGE From: KNIME Core API 2.11.3.0046668 (org.knime.core 2.11.3.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.266
+!MESSAGE To: bundle org.knime.core.util [5.0.0,6.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:32:45.266
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.266
+!MESSAGE From: KNIME Core 2.11.3.0046668 (org.knime.features.base.feature.group 2.11.3.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.266
+!MESSAGE To: org.knime.core [2.11.3.0046668]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:32:45.266
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.266
+!MESSAGE From: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.features.quickform.feature.group 2.9.1.0041076)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.266
+!MESSAGE To: org.knime.quickform.nodes [2.9.1.0041076]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:32:45.266
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.266
+!MESSAGE From: KNIME SDK 2.11.2.0046668 (org.knime.features.sdk.feature.group 2.11.2.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.266
+!MESSAGE To: org.knime.features.base.feature.group [2.11.3.0046668]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:32:45.266
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.266
+!MESSAGE From: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.quickform.nodes 2.9.1.0041076)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.266
+!MESSAGE To: bundle org.knime.core.util [4.2.0,5.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-07 22:32:45.281
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:32:45.281
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.281
+!MESSAGE Software being installed: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.features.quickform.feature.group 2.9.1.0041076)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.281
+!MESSAGE Software currently installed: KNIME SDK 2.11.2.0046668 (org.knime.features.sdk.feature.group 2.11.2.0046668)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:32:45.281
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.281
+!MESSAGE KNIME Core Utility Plugin 4.5.0.0040933 (org.knime.core.util 4.5.0.0040933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.281
+!MESSAGE KNIME Core Utility Plugin 4.5.0.0040613 (org.knime.core.util 4.5.0.0040613)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.281
+!MESSAGE KNIME Core Utility Plugin 5.0.0.0045367 (org.knime.core.util 5.0.0.0045367)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.281
+!MESSAGE KNIME Core Utility Plugin 4.5.1.0041140 (org.knime.core.util 4.5.1.0041140)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:32:45.281
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.281
+!MESSAGE From: KNIME Core API 2.11.3.0046668 (org.knime.core 2.11.3.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.281
+!MESSAGE To: bundle org.knime.core.util [5.0.0,6.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:32:45.281
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.281
+!MESSAGE From: KNIME Core 2.11.3.0046668 (org.knime.features.base.feature.group 2.11.3.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.281
+!MESSAGE To: org.knime.core [2.11.3.0046668]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:32:45.281
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.281
+!MESSAGE From: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.features.quickform.feature.group 2.9.1.0041076)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.281
+!MESSAGE To: org.knime.quickform.nodes [2.9.1.0041076]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:32:45.281
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.281
+!MESSAGE From: KNIME SDK 2.11.2.0046668 (org.knime.features.sdk.feature.group 2.11.2.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.281
+!MESSAGE To: org.knime.features.base.feature.group [2.11.3.0046668]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:32:45.281
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.281
+!MESSAGE From: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.quickform.nodes 2.9.1.0041076)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:32:45.281
+!MESSAGE To: bundle org.knime.core.util [4.2.0,5.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-07 22:33:18.874
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:18.874
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE Software being installed: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.features.quickform.feature.group 2.9.1.0041076)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE Software currently installed: KNIME SDK 2.11.2.0046668 (org.knime.features.sdk.feature.group 2.11.2.0046668)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:18.874
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE KNIME Core Utility Plugin 4.5.0.0040933 (org.knime.core.util 4.5.0.0040933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE KNIME Core Utility Plugin 4.5.0.0040613 (org.knime.core.util 4.5.0.0040613)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE KNIME Core Utility Plugin 5.0.0.0045367 (org.knime.core.util 5.0.0.0045367)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE KNIME Core Utility Plugin 4.5.1.0041140 (org.knime.core.util 4.5.1.0041140)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:18.874
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE From: KNIME Core API 2.11.3.0046668 (org.knime.core 2.11.3.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE To: bundle org.knime.core.util [5.0.0,6.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:18.874
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE From: KNIME Core 2.11.3.0046668 (org.knime.features.base.feature.group 2.11.3.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE To: org.knime.core [2.11.3.0046668]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:18.874
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE From: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.features.quickform.feature.group 2.9.1.0041076)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE To: org.knime.quickform.nodes [2.9.1.0041076]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:18.874
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE From: KNIME SDK 2.11.2.0046668 (org.knime.features.sdk.feature.group 2.11.2.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE To: org.knime.features.base.feature.group [2.11.3.0046668]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:18.874
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE From: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.quickform.nodes 2.9.1.0041076)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE To: bundle org.knime.core.util [4.2.0,5.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-07 22:33:18.874
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:18.874
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE Software being installed: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.features.quickform.feature.group 2.9.1.0041076)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE Software currently installed: KNIME SDK 2.11.2.0046668 (org.knime.features.sdk.feature.group 2.11.2.0046668)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:18.874
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE KNIME Core Utility Plugin 4.5.0.0040933 (org.knime.core.util 4.5.0.0040933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE KNIME Core Utility Plugin 4.5.0.0040613 (org.knime.core.util 4.5.0.0040613)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE KNIME Core Utility Plugin 5.0.0.0045367 (org.knime.core.util 5.0.0.0045367)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE KNIME Core Utility Plugin 4.5.1.0041140 (org.knime.core.util 4.5.1.0041140)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:18.874
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE From: KNIME Core API 2.11.3.0046668 (org.knime.core 2.11.3.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE To: bundle org.knime.core.util [5.0.0,6.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:18.874
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE From: KNIME Core 2.11.3.0046668 (org.knime.features.base.feature.group 2.11.3.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE To: org.knime.core [2.11.3.0046668]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:18.874
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE From: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.features.quickform.feature.group 2.9.1.0041076)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE To: org.knime.quickform.nodes [2.9.1.0041076]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:18.874
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE From: KNIME SDK 2.11.2.0046668 (org.knime.features.sdk.feature.group 2.11.2.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE To: org.knime.features.base.feature.group [2.11.3.0046668]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:18.874
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE From: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.quickform.nodes 2.9.1.0041076)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:18.874
+!MESSAGE To: bundle org.knime.core.util [4.2.0,5.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-07 22:33:38.356
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:38.356
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE Software being installed: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.features.quickform.feature.group 2.9.1.0041076)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE Software currently installed: KNIME SDK 2.11.2.0046668 (org.knime.features.sdk.feature.group 2.11.2.0046668)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:38.356
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE KNIME Core Utility Plugin 4.5.0.0040933 (org.knime.core.util 4.5.0.0040933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE KNIME Core Utility Plugin 4.5.0.0040613 (org.knime.core.util 4.5.0.0040613)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE KNIME Core Utility Plugin 5.0.0.0045367 (org.knime.core.util 5.0.0.0045367)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE KNIME Core Utility Plugin 4.5.1.0041140 (org.knime.core.util 4.5.1.0041140)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:38.356
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE From: KNIME Core API 2.11.3.0046668 (org.knime.core 2.11.3.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE To: bundle org.knime.core.util [5.0.0,6.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:38.356
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE From: KNIME Core 2.11.3.0046668 (org.knime.features.base.feature.group 2.11.3.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE To: org.knime.core [2.11.3.0046668]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:38.356
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE From: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.features.quickform.feature.group 2.9.1.0041076)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE To: org.knime.quickform.nodes [2.9.1.0041076]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:38.356
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE From: KNIME SDK 2.11.2.0046668 (org.knime.features.sdk.feature.group 2.11.2.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE To: org.knime.features.base.feature.group [2.11.3.0046668]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:38.356
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE From: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.quickform.nodes 2.9.1.0041076)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE To: bundle org.knime.core.util [4.2.0,5.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-07 22:33:38.356
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:38.356
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE Software being installed: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.features.quickform.feature.group 2.9.1.0041076)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE Software currently installed: KNIME SDK 2.11.2.0046668 (org.knime.features.sdk.feature.group 2.11.2.0046668)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:38.356
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE KNIME Core Utility Plugin 4.5.0.0040933 (org.knime.core.util 4.5.0.0040933)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE KNIME Core Utility Plugin 4.5.0.0040613 (org.knime.core.util 4.5.0.0040613)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE KNIME Core Utility Plugin 5.0.0.0045367 (org.knime.core.util 5.0.0.0045367)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE KNIME Core Utility Plugin 4.5.1.0041140 (org.knime.core.util 4.5.1.0041140)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:38.356
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE From: KNIME Core API 2.11.3.0046668 (org.knime.core 2.11.3.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE To: bundle org.knime.core.util [5.0.0,6.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:38.356
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE From: KNIME Core 2.11.3.0046668 (org.knime.features.base.feature.group 2.11.3.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE To: org.knime.core [2.11.3.0046668]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:38.356
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE From: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.features.quickform.feature.group 2.9.1.0041076)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE To: org.knime.quickform.nodes [2.9.1.0041076]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:38.356
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE From: KNIME SDK 2.11.2.0046668 (org.knime.features.sdk.feature.group 2.11.2.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE To: org.knime.features.base.feature.group [2.11.3.0046668]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:38.356
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE From: KNIME Nodes to create KNIME Quick Forms 2.9.1.0041076 (org.knime.quickform.nodes 2.9.1.0041076)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:38.356
+!MESSAGE To: bundle org.knime.core.util [4.2.0,5.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-07 22:33:46.042
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE Software being installed: KNIME Report Designer 2.9.4.0042076 (com.knime.features.reporting.designer.feature.group 2.9.4.0042076)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE Software currently installed: KNIME SDK 2.11.2.0046668 (org.knime.features.sdk.feature.group 2.11.2.0046668)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE KNIME Explorer View 7.0.0.0045346 (org.knime.workbench.explorer.view 7.0.0.0045346)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE KNIME Explorer View 6.3.1.0041469 (org.knime.workbench.explorer.view 6.3.1.0041469)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE KNIME Explorer View 6.1.0.0040858 (org.knime.workbench.explorer.view 6.1.0.0040858)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE KNIME Explorer View 6.3.2.0041716 (org.knime.workbench.explorer.view 6.3.2.0041716)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE KNIME Explorer View 6.2.0.0041087 (org.knime.workbench.explorer.view 6.2.0.0041087)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE KNIME Explorer View 6.3.0.0041309 (org.knime.workbench.explorer.view 6.3.0.0041309)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE KNIME Explorer View 6.2.1.0041140 (org.knime.workbench.explorer.view 6.2.1.0041140)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE KNIME Explorer View 6.0.0.0040728 (org.knime.workbench.explorer.view 6.0.0.0040728)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: KNIME Report Designer 2.9.4.0042076 (com.knime.features.reporting.designer.feature.group 2.9.4.0042076)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: com.knime.reporting.designer [2.9.4.0041730]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: KNIME Reporting ODA Driver 2.9.0.0040614 (com.knime.oda.driver 2.9.0.0040614)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: bundle org.knime.workbench.explorer.view [5.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: KNIME Reporting ODA Driver 2.9.1.0041076 (com.knime.oda.driver 2.9.1.0041076)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: bundle org.knime.workbench.explorer.view [5.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: KNIME Reporting ODA Driver 2.9.2.0041468 (com.knime.oda.driver 2.9.2.0041468)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: bundle org.knime.workbench.explorer.view [5.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: KNIME Reporting ODA Driver 2.9.3.0041715 (com.knime.oda.driver 2.9.3.0041715)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: bundle org.knime.workbench.explorer.view [5.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: KNIME Report Designer 2.9.4.0041730 (com.knime.reporting.designer 2.9.4.0041730)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: bundle com.knime.oda.driver [2.3.1,3.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: KNIME SDK 2.11.2.0046668 (org.knime.features.sdk.feature.group 2.11.2.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: org.knime.features.testingapplication.feature.group [2.11.2.0046096]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: KNIME Testing Framework 2.11.2.0046096 (org.knime.features.testingapplication.feature.group 2.11.2.0046096)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: org.knime.testing.ui [2.11.0.0045346]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: UI contributions for KNIME Testing Framework 2.11.0.0045346 (org.knime.testing.ui 2.11.0.0045346)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: bundle org.knime.workbench.explorer.view [7.0.0,8.0.0)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-05-07 22:33:46.042
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE Software being installed: KNIME Report Designer 2.9.4.0042076 (com.knime.features.reporting.designer.feature.group 2.9.4.0042076)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE Software currently installed: KNIME SDK 2.11.2.0046668 (org.knime.features.sdk.feature.group 2.11.2.0046668)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE KNIME Explorer View 7.0.0.0045346 (org.knime.workbench.explorer.view 7.0.0.0045346)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE KNIME Explorer View 6.3.1.0041469 (org.knime.workbench.explorer.view 6.3.1.0041469)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE KNIME Explorer View 6.1.0.0040858 (org.knime.workbench.explorer.view 6.1.0.0040858)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE KNIME Explorer View 6.3.2.0041716 (org.knime.workbench.explorer.view 6.3.2.0041716)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE KNIME Explorer View 6.2.0.0041087 (org.knime.workbench.explorer.view 6.2.0.0041087)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE KNIME Explorer View 6.3.0.0041309 (org.knime.workbench.explorer.view 6.3.0.0041309)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE KNIME Explorer View 6.2.1.0041140 (org.knime.workbench.explorer.view 6.2.1.0041140)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE KNIME Explorer View 6.0.0.0040728 (org.knime.workbench.explorer.view 6.0.0.0040728)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: KNIME Report Designer 2.9.4.0042076 (com.knime.features.reporting.designer.feature.group 2.9.4.0042076)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: com.knime.reporting.designer [2.9.4.0041730]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: KNIME Reporting ODA Driver 2.9.0.0040614 (com.knime.oda.driver 2.9.0.0040614)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: bundle org.knime.workbench.explorer.view [5.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: KNIME Reporting ODA Driver 2.9.1.0041076 (com.knime.oda.driver 2.9.1.0041076)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: bundle org.knime.workbench.explorer.view [5.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: KNIME Reporting ODA Driver 2.9.2.0041468 (com.knime.oda.driver 2.9.2.0041468)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: bundle org.knime.workbench.explorer.view [5.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: KNIME Reporting ODA Driver 2.9.3.0041715 (com.knime.oda.driver 2.9.3.0041715)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: bundle org.knime.workbench.explorer.view [5.0.0,7.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: KNIME Report Designer 2.9.4.0041730 (com.knime.reporting.designer 2.9.4.0041730)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: bundle com.knime.oda.driver [2.3.1,3.0.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: KNIME SDK 2.11.2.0046668 (org.knime.features.sdk.feature.group 2.11.2.0046668)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: org.knime.features.testingapplication.feature.group [2.11.2.0046096]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: KNIME Testing Framework 2.11.2.0046096 (org.knime.features.testingapplication.feature.group 2.11.2.0046096)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: org.knime.testing.ui [2.11.0.0045346]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-05-07 22:33:46.042
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE From: UI contributions for KNIME Testing Framework 2.11.0.0045346 (org.knime.testing.ui 2.11.0.0045346)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-05-07 22:33:46.042
+!MESSAGE To: bundle org.knime.workbench.explorer.view [7.0.0,8.0.0)
+!SESSION 2015-05-07 22:44:49.527 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2015-05-07 22:45:12.827
+!MESSAGE Plug-in 'org.knime.workbench.ui' contributed an invalid Menu Extension (Path: 'view' is invalid): org.knime.workbench.ui.openLogfile
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 2 0 2015-05-07 22:48:57.190
+!MESSAGE Error parsing metadata repository
+!SUBENTRY 1 org.eclipse.equinox.p2.core 2 0 2015-05-07 22:48:57.190
+!MESSAGE Error in file:/C:/Program Files/KNIME_SDK_2.11.3/p2/org.eclipse.equinox.p2.repository/cache/content-312297966.jar at line 42550, column 144: Illegal value for attribute "range" of element "required": [2.9.1.0041076,2.9.0.0041076]
+
+!ENTRY org.eclipse.ui 4 4 2015-05-07 23:02:27.537
+!MESSAGE Plug-in 'org.knime.workbench.ui' contributed an invalid Menu Extension (Path: 'view' is invalid): org.knime.workbench.ui.openLogfile
+!SESSION 2015-05-07 23:03:30.246 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2015-05-07 23:04:58.170
+!MESSAGE Plug-in 'org.knime.workbench.ui' contributed an invalid Menu Extension (Path: 'view' is invalid): org.knime.workbench.ui.openLogfile
+!SESSION 2015-05-10 09:40:04.006 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2015-05-10 09:40:44.041
+!MESSAGE Plug-in 'org.knime.workbench.ui' contributed an invalid Menu Extension (Path: 'view' is invalid): org.knime.workbench.ui.openLogfile
+!SESSION 2015-05-10 13:33:55.231 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2015-05-10 13:34:06.152
+!MESSAGE Plug-in 'org.knime.workbench.ui' contributed an invalid Menu Extension (Path: 'view' is invalid): org.knime.workbench.ui.openLogfile
+!SESSION 2015-05-10 14:03:16.798 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_60
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2015-05-10 14:03:28.144
+!MESSAGE Plug-in 'org.knime.workbench.ui' contributed an invalid Menu Extension (Path: 'view' is invalid): org.knime.workbench.ui.openLogfile

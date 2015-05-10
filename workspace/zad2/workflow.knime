@@ -7,7 +7,7 @@
 <entry key="authored-by" type="xstring" value="Dominik"/>
 <entry key="authored-when" type="xstring" value="2015-05-03 00:13:45 +0200"/>
 <entry key="lastEdited-by" type="xstring" value="Dominik"/>
-<entry key="lastEdited-when" type="xstring" value="2015-05-03 20:23:33 +0200"/>
+<entry key="lastEdited-when" type="xstring" value="2015-05-10 14:20:50 +0200"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -54,8 +54,8 @@
 <config key="ui_settings">
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="367"/>
-<entry key="1" type="xint" value="122"/>
+<entry key="0" type="xint" value="564"/>
+<entry key="1" type="xint" value="242"/>
 <entry key="2" type="xint" value="116"/>
 <entry key="3" type="xint" value="84"/>
 </config>
@@ -63,17 +63,17 @@
 </config>
 <config key="node_4">
 <entry key="id" type="xint" value="4"/>
-<entry key="node_settings_file" type="xstring" value="Decision Tree Learner (#4)/settings.xml"/>
+<entry key="node_settings_file" type="xstring" value="Statistics (#4)/settings.xml"/>
 <entry key="node_is_meta" type="xboolean" value="false"/>
 <entry key="node_type" type="xstring" value="NativeNode"/>
 <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
 <config key="ui_settings">
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="366"/>
-<entry key="1" type="xint" value="300"/>
-<entry key="2" type="xint" value="87"/>
-<entry key="3" type="xint" value="120"/>
+<entry key="0" type="xint" value="563"/>
+<entry key="1" type="xint" value="82"/>
+<entry key="2" type="xint" value="63"/>
+<entry key="3" type="xint" value="84"/>
 </config>
 </config>
 </config>

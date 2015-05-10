@@ -86,6 +86,7 @@ namespace generator_ed
     }
     public enum PrzedzialyByciaBezrobotnym
     {
+        pracujacy,
         do3miesiecy,
         do6miesiecy,
         do12miesiecy,
@@ -132,6 +133,7 @@ namespace generator_ed
         GdanskaWyzszaSzkolaHumanistyczna,
         AkademiaMarynarkiWojennej,
         AkademiaSztukPieknych,
+        GdanskiUniwersytetMedyczny,
         LiceumOgolnoksztalcace,
         LiceumProfilowe,
         Gimnazjum,
@@ -265,6 +267,7 @@ namespace generator_ed
             Niepelnosprawnosc = _niepelnosprawnosc;
             StanCywilny = _stancywilny;
             OgrzewanieIEnergia = _ogrzewanie;
+            OkresBudowyMieszkania = _okresbudowymieszkania;
         }
         public override string ToString()
         {
@@ -335,7 +338,8 @@ namespace generator_ed
                            DochodRodziny == ProgiDochodu.do50tys ? "do 50 tys" :
                            DochodRodziny == ProgiDochodu.do100tys ? "do 100 tys" : "powyzej 100 tys");
             builder.Append(",");
-            builder.Append(OkresByciaBezrobotnym == PrzedzialyByciaBezrobotnym.do3miesiecy ? "do 3 miesiecy" :
+            builder.Append(OkresByciaBezrobotnym == PrzedzialyByciaBezrobotnym.pracujacy ? "pracujacy" :
+                           OkresByciaBezrobotnym == PrzedzialyByciaBezrobotnym.do3miesiecy ? "do 3 miesiecy" :
                            OkresByciaBezrobotnym == PrzedzialyByciaBezrobotnym.do6miesiecy ? "do 6 miesiecy" :
                            OkresByciaBezrobotnym == PrzedzialyByciaBezrobotnym.do12miesiecy ? "do 12 miesiecy" : "ponad 12 miesiecy");
             builder.Append(",");
@@ -374,7 +378,8 @@ namespace generator_ed
                            NazwaUczelni == TrojmiejskieUczelnie.WyzszaSzkolaAdministracjiIBiznesu ? "Wyzsza Szkola Administracji i Biznesu" :
                            NazwaUczelni == TrojmiejskieUczelnie.WyzszaSzkolaBankowa ? "Wyzsza Szkola Bankowa" :
                            NazwaUczelni == TrojmiejskieUczelnie.WyzszaSzkolaKomunikacjiSpolecznej ? "Wyzsza Szkola Komunikacji Spolecznej" :
-                           NazwaUczelni == TrojmiejskieUczelnie.WyzszaSzkolaTurystykiiHotelarstwawGdansku ? "Wyzsza Szkola Turystyki i Hotelarstwa w Gdansku" : "Zasadnicza Szkola Zawodowa");
+                           NazwaUczelni == TrojmiejskieUczelnie.WyzszaSzkolaTurystykiiHotelarstwawGdansku ? "Wyzsza Szkola Turystyki i Hotelarstwa w Gdansku" :
+                           NazwaUczelni == TrojmiejskieUczelnie.GdanskiUniwersytetMedyczny ? "Gdanski Uniwersytet Medyczny":"Zasadnicza Szkola Zawodowa");
             builder.Append(",");
             builder.Append(DziedzinaOstatniegoZatrudnienia == DziedzinaPracy.Emerytura ? "emerytura" :
                            DziedzinaOstatniegoZatrudnienia == DziedzinaPracy.Nieustalone ? "nie ustalone" :
@@ -431,23 +436,341 @@ namespace generator_ed
     }
     class Program
     {
+        private static Random rand = new Random();
         static void Main(string[] args)
         {
             StringBuilder lines = new StringBuilder();
-            Random rand = new Random();
             for (int i = 0; i < 750000;i++)
             {
-                Rekord osoba = new Rekord(rand.Next(0, 100) > 85, (PoziomWyksztalcenia)rand.Next(0, Enum.GetNames(typeof(PoziomWyksztalcenia)).Length), (ProgiWiekowe)rand.Next(0, Enum.GetNames(typeof(ProgiWiekowe)).Length),
-                                          (PlecEnum)rand.Next(0, Enum.GetNames(typeof(PlecEnum)).Length), (KierunekLubProfilWyksztalcenia)rand.Next(0, Enum.GetNames(typeof(KierunekLubProfilWyksztalcenia)).Length), (RodzajMiejscowosci)rand.Next(0, Enum.GetNames(typeof(RodzajMiejscowosci)).Length),
-                                          (ProgiOsobNaUtrzymaniu)rand.Next(0, Enum.GetNames(typeof(ProgiOsobNaUtrzymaniu)).Length), (ProgiDochodu)rand.Next(0, Enum.GetNames(typeof(ProgiDochodu)).Length), (PrzedzialyByciaBezrobotnym)rand.Next(0, Enum.GetNames(typeof(PrzedzialyByciaBezrobotnym)).Length),
-                                          (RodzajUczelni)rand.Next(0, Enum.GetNames(typeof(RodzajUczelni)).Length), (ProgiAbsolwentow)rand.Next(0, Enum.GetNames(typeof(ProgiAbsolwentow)).Length), (TrojmiejskieUczelnie)rand.Next(0, Enum.GetNames(typeof(TrojmiejskieUczelnie)).Length),
-                                          (DziedzinaPracy)rand.Next(0, Enum.GetNames(typeof(DziedzinaPracy)).Length), (OkresBudowy)rand.Next(0, Enum.GetNames(typeof(OkresBudowy)).Length), (IloscOsobNaIzbe)rand.Next(0, Enum.GetNames(typeof(IloscOsobNaIzbe)).Length),
-                                          (ProgiPowierzchniUzytkowej)rand.Next(0, Enum.GetNames(typeof(ProgiPowierzchniUzytkowej)).Length), (IloscIzbWMieszkaniu)rand.Next(0, Enum.GetNames(typeof(IloscIzbWMieszkaniu)).Length), rand.Next(0, 100) < 98,
-                                          rand.Next(0, 100) < 98, rand.Next(0, 100) < 98, rand.Next(0, 100) < 98, rand.Next(0, 100) >75, (RodzajeStanuCywilnego)rand.Next(0,Enum.GetNames(typeof(RodzajeStanuCywilnego)).Length),
-                                          (SposobOgrzewaniaIZrodloEnergii)rand.Next(0,Enum.GetNames(typeof(SposobOgrzewaniaIZrodloEnergii)).Length));
+                //Stan BEzrobotnego
+                bool stanBezrobotnego = rand.Next(0, 100) > 85;
+                //poziom wyksztalcenia
+                int liczba = rand.Next(0, 10000);
+                PoziomWyksztalcenia wyksztalcenie = liczba < 1540 ?PoziomWyksztalcenia.Wyzsze :
+                        liczba < 3150 ? PoziomWyksztalcenia.SrednieZawodowe :
+                        liczba < 4310 ? PoziomWyksztalcenia.SrednieOgolnoksztalcace :
+                        liczba < 6570 ? PoziomWyksztalcenia.ZasadniczeZawodowe :
+                        liczba < 7100 ? PoziomWyksztalcenia.Gimnazjalne :
+                        liczba < 9005 ? PoziomWyksztalcenia.Podstawowe : PoziomWyksztalcenia.PodstawoweNieukonczone_BezWyksztalcenia; 
+                //kierunek i profil wyksztalcenia
+                KierunekLubProfilWyksztalcenia kierunek = LosujKierunekLubProfilWyksztalcenia(wyksztalcenie);
+                //rodzaj uczelni
+                RodzajUczelni rodzajUczelni = LosujRodzajUczelni(wyksztalcenie, kierunek);
+                //nazwa uczelni
+                TrojmiejskieUczelnie nazwaUczelni = LosujNazweUczelni(rodzajUczelni, kierunek); 
+                //ilosc absolwentow
+                ProgiAbsolwentow iloscAbsolwentow = LosujIloscAbsolwentow(nazwaUczelni);
+                //Przedzial Bycia Bezrobotnym
+                PrzedzialyByciaBezrobotnym przedzialByciaBezrobotnym;
+                if(stanBezrobotnego)
+                {
+                    przedzialByciaBezrobotnym = PrzedzialyByciaBezrobotnym.pracujacy;
+                }
+                else
+                {
+                    liczba = rand.Next(0, 10000);
+                    przedzialByciaBezrobotnym = liczba < 2200 ? PrzedzialyByciaBezrobotnym.do3miesiecy :
+                        liczba<4630?PrzedzialyByciaBezrobotnym.do6miesiecy:
+                        liczba<7580?PrzedzialyByciaBezrobotnym.do12miesiecy:PrzedzialyByciaBezrobotnym.ponad12miesiecy;
+                }
+                //Progi Powierzchni Uzytkowej 
+                liczba = rand.Next(0, 10000);
+                ProgiPowierzchniUzytkowej powierzchniaUzytkowa = liczba < 577 ? ProgiPowierzchniUzytkowej.poniżej7m2naOsobe :
+                        liczba < 1620 ? ProgiPowierzchniUzytkowej.od7do10m2naOsobe :
+                        liczba < 3900 ? ProgiPowierzchniUzytkowej.od10do15m2naOsobe :
+                        liczba < 5742 ? ProgiPowierzchniUzytkowej.od15do20m2naOsobe :
+                        liczba < 7720 ? ProgiPowierzchniUzytkowej.od20do30m2naOsobe :ProgiPowierzchniUzytkowej.ponad30m2naOsobe;
+                //Ilosc Osob Na Izbe
+                liczba = rand.Next(0, 10000);
+                IloscOsobNaIzbe iloscIzb = liczba < 850 ? IloscOsobNaIzbe.ponizejpol :
+                        liczba < 3870 ? IloscOsobNaIzbe.odpoldo1 :
+                        liczba < 7340 ? IloscOsobNaIzbe.od1do1ipol :
+                        liczba < 8470 ? IloscOsobNaIzbe.od1ipoldo2 :
+                        liczba < 9390 ? IloscOsobNaIzbe.od2do3 :IloscOsobNaIzbe.ponad3;
+                //Sposob Ogrzewania
+                liczba = rand.Next(0, 10000);
+                SposobOgrzewaniaIZrodloEnergii sposobOgrzewania = liczba < 1608 ? SposobOgrzewaniaIZrodloEnergii.piece :
+                        liczba < 4500 ? SposobOgrzewaniaIZrodloEnergii.COindywidualne  :SposobOgrzewaniaIZrodloEnergii.COzbiorowe;
+                //Osob na utrzymaniu
+                liczba = rand.Next(0, 10000);
+                ProgiOsobNaUtrzymaniu osobNaUtrzymaniu = liczba < 1260? ProgiOsobNaUtrzymaniu.OsobaSamodzielna :
+                    liczba < 3740? ProgiOsobNaUtrzymaniu.RodzinaBezDzieci :
+                    liczba < 6300? ProgiOsobNaUtrzymaniu.JednoDziecko :
+                    liczba < 8500? ProgiOsobNaUtrzymaniu.DwojeDzieci :
+                    liczba< 9750?ProgiOsobNaUtrzymaniu.TrojeDzieci: ProgiOsobNaUtrzymaniu.CzworoIWiecejDzieci;
+                //Ilosc Izb Ogolnie
+                liczba = iloscIzb == IloscOsobNaIzbe.ponizejpol?490:
+                    iloscIzb == IloscOsobNaIzbe.odpoldo1 ? 990 :
+                    iloscIzb == IloscOsobNaIzbe.od1do1ipol ? 1490 :
+                    iloscIzb == IloscOsobNaIzbe.od1ipoldo2 ? 1990 :
+                    iloscIzb == IloscOsobNaIzbe.od2do3 ? 2990 : 4000;
+                liczba *= osobNaUtrzymaniu==ProgiOsobNaUtrzymaniu.OsobaSamodzielna?1:
+                    osobNaUtrzymaniu==ProgiOsobNaUtrzymaniu.RodzinaBezDzieci?2:
+                    osobNaUtrzymaniu==ProgiOsobNaUtrzymaniu.JednoDziecko?3:
+                    osobNaUtrzymaniu==ProgiOsobNaUtrzymaniu.DwojeDzieci?4:
+                    osobNaUtrzymaniu==ProgiOsobNaUtrzymaniu.TrojeDzieci?5: 6;
+                int iloscIzbOgolnieInt = liczba/1000+1;
+                IloscIzbWMieszkaniu iloscIzbOgolnie = iloscIzbOgolnieInt==1?IloscIzbWMieszkaniu.jednaizba:
+                    iloscIzbOgolnieInt==2?IloscIzbWMieszkaniu.dwieizby:
+                    iloscIzbOgolnieInt==3?IloscIzbWMieszkaniu.trzyizby:
+                    iloscIzbOgolnieInt==4?IloscIzbWMieszkaniu.czteryizby: IloscIzbWMieszkaniu.pieciwiecejizb;
+                //Progi Wiekowe
+                liczba = rand.Next(0, 10000);
+                ProgiWiekowe wiek = liczba<2240?ProgiWiekowe.do20lat:
+                    liczba < 3850 ? ProgiWiekowe.do30lat :
+                    liczba < 5400? ProgiWiekowe.do40lat :
+                    liczba < 6650? ProgiWiekowe.do50lat :
+                    liczba < 8200? ProgiWiekowe.do60lat : ProgiWiekowe.ponad60lat;
+                //Miejscowosc
+                liczba = rand.Next(0, 10000);
+                RodzajMiejscowosci miejscowosc = liczba < 9000 ? RodzajMiejscowosci.miastoponad100tys :
+                    liczba < 9500 ? RodzajMiejscowosci.miastodo100tys :
+                    liczba < 9750 ? RodzajMiejscowosci.miastodo50tys :
+                    liczba<9900?RodzajMiejscowosci.miastodo10tys: RodzajMiejscowosci.wies;
+                //Progi Dochodu
+                liczba = rand.Next(0, 10000);
+                ProgiDochodu dochod = liczba<2000?ProgiDochodu.do20tys:
+                    liczba<4000?ProgiDochodu.do30tys:
+                    liczba<8000?ProgiDochodu.do50tys:
+                    liczba<9500?ProgiDochodu.do100tys: ProgiDochodu.ponad100tys;
+                //Dziedzina Pracy
+                liczba = rand.Next(0, 10000);
+                DziedzinaPracy praca = liczba < 3020 ? DziedzinaPracy.PracaNajemnaPozaRolnictwem :
+                    liczba < 3400 ? DziedzinaPracy.PracaNaWlasnyRachunekPozaRolnictwem :
+                    liczba < 3670 ? DziedzinaPracy.PracaWRolnictwie :
+                    liczba < 5300 ? DziedzinaPracy.Emerytura :
+                    liczba < 5870 ? DziedzinaPracy.Renta :
+                    liczba < 6360 ? DziedzinaPracy.PozostaleZrodla :
+                    liczba < 9500 ? DziedzinaPracy.Utrzymywani : DziedzinaPracy.Nieustalone;
+                //Okres Budowy Mieszkania
+                liczba = rand.Next(0, 10000);
+                OkresBudowy okresBudowyMieszkania = liczba < 1120 ? OkresBudowy.przed1918 :
+                                                    liczba < 2340 ? OkresBudowy.pomiedzy1918a1944 :
+                                                    liczba < 4340 ? OkresBudowy.pomiedzy1945a1970 :
+                                                    liczba < 5910 ? OkresBudowy.pomiedzy1971a1978 :
+                                                    liczba < 7550 ? OkresBudowy.pomiedzy1979a1988 :
+                                                    liczba < 8800 ? OkresBudowy.pomiedzy1989a2002 : OkresBudowy.po2003roku;
+                //Stan Cywilny 
+                liczba = rand.Next(0, 10000);
+                RodzajeStanuCywilnego stanCywilny = liczba < 4050 ? RodzajeStanuCywilnego.kawalerowie_panny :
+                    liczba < 8720 ? RodzajeStanuCywilnego.żonaci_zamężne :
+                    liczba < 9470 ?RodzajeStanuCywilnego.wdowcy_wdowy  :
+                    liczba < 9900 ? RodzajeStanuCywilnego.rozwiedzeni_rozwiedzione : RodzajeStanuCywilnego.nieustalony;
+                Rekord osoba = new Rekord(stanBezrobotnego,
+                                          wyksztalcenie, 
+                                          wiek,
+                                          rand.Next(0, 10000)<5600?PlecEnum.Kobieta:PlecEnum.Mezczyzna, 
+                                          kierunek, 
+                                          miejscowosc,
+                                          osobNaUtrzymaniu,
+                                          dochod, 
+                                          przedzialByciaBezrobotnym,
+                                          rodzajUczelni, 
+                                          iloscAbsolwentow,
+                                          nazwaUczelni,
+                                          praca,
+                                          okresBudowyMieszkania,
+                                          iloscIzb,
+                                          powierzchniaUzytkowa, 
+                                          iloscIzbOgolnie, 
+                                          rand.Next(0, 100) < 98,
+                                          rand.Next(0, 100) < 98, 
+                                          rand.Next(0, 100) < 98, 
+                                          rand.Next(0, 100) < 98, 
+                                          rand.Next(0, 100) >75, 
+                                          stanCywilny,
+                                          sposobOgrzewania);
                 lines.Append(osoba.ToString());
             }
             File.WriteAllText("Dane.csv", lines.ToString());
+        }
+
+        private static ProgiAbsolwentow LosujIloscAbsolwentow(TrojmiejskieUczelnie nazwaUczelni)
+        {
+            int liczba;
+            switch(nazwaUczelni)
+            {
+                case TrojmiejskieUczelnie.UniwersytetGdanski:
+                    return ProgiAbsolwentow.powyzej5000;
+                case TrojmiejskieUczelnie.GdanskiUniwersytetMedyczny:
+                    return ProgiAbsolwentow.od1500do2500;
+                case TrojmiejskieUczelnie.PolitechnikaGdanska:
+                    return ProgiAbsolwentow.od2500do5000;
+                case TrojmiejskieUczelnie.WyzszaSzkolaAdministracjiIBiznesu:
+                case TrojmiejskieUczelnie.SzkolaWyzszaPsychologiiSpolecznej:
+                case TrojmiejskieUczelnie.WyzszaSzkolaBankowa:
+                case TrojmiejskieUczelnie.WyzszaSzkolaKomunikacjiSpolecznej:
+                case TrojmiejskieUczelnie.SopockaSzkolaWyzsza:
+                case TrojmiejskieUczelnie.AkademiaWychowaniaFizycznegoiSportu:
+                case TrojmiejskieUczelnie.WyzszaSzkolaTurystykiiHotelarstwawGdansku:
+                case TrojmiejskieUczelnie.GdanskaWyzszaSzkolaHumanistyczna:
+                case TrojmiejskieUczelnie.AkademiaMarynarkiWojennej:
+                case TrojmiejskieUczelnie.AkademiaSztukPieknych:
+                    liczba = rand.Next(0, 2);
+                    return liczba == 0 ? ProgiAbsolwentow.od500do1000: ProgiAbsolwentow.od1000do1500;
+                case TrojmiejskieUczelnie.LiceumOgolnoksztalcace:
+                case TrojmiejskieUczelnie.LiceumProfilowe:
+                case TrojmiejskieUczelnie.Gimnazjum:
+                case TrojmiejskieUczelnie.SzkolaPodstawowa:
+                case TrojmiejskieUczelnie.ZasadniczaSzkolaZawodowa:
+                case TrojmiejskieUczelnie.Inna:
+                default:
+                    return ProgiAbsolwentow.ponizej500;
+            }
+        }
+        private static TrojmiejskieUczelnie LosujNazweUczelni(RodzajUczelni uczelnia, KierunekLubProfilWyksztalcenia kierunek)
+        {
+            int liczba;
+            switch(uczelnia)
+            {
+                case RodzajUczelni.Uniwersytet:
+                    return TrojmiejskieUczelnie.UniwersytetGdanski;
+                case RodzajUczelni.WyzszaSzkolaTechniczna:
+                    return TrojmiejskieUczelnie.PolitechnikaGdanska;
+                case RodzajUczelni.WyzszaSzkolaEkonomiczna:
+                    liczba = rand.Next(0, 2);
+                    return liczba == 0 ? TrojmiejskieUczelnie.WyzszaSzkolaAdministracjiIBiznesu : TrojmiejskieUczelnie.WyzszaSzkolaBankowa;
+                case RodzajUczelni.WyzszaSzkolaMorska:
+                    return TrojmiejskieUczelnie.AkademiaMarynarkiWojennej;
+                case RodzajUczelni.UniwersytetMedyczny:
+                    return TrojmiejskieUczelnie.GdanskiUniwersytetMedyczny;
+                case RodzajUczelni.AkademiaWychowaniaFizycznego:
+                    return TrojmiejskieUczelnie.AkademiaWychowaniaFizycznegoiSportu;
+                case RodzajUczelni.WyzszaSzkolaArtystyczna:
+                    return TrojmiejskieUczelnie.AkademiaSztukPieknych;
+                case RodzajUczelni.PozostaleSzkolyWyzsze:
+                    switch(kierunek)
+                    {
+                        case KierunekLubProfilWyksztalcenia.Pedagogiczne:
+                        case KierunekLubProfilWyksztalcenia.Humanistyczne:
+                        case KierunekLubProfilWyksztalcenia.Spoleczne:
+                        case KierunekLubProfilWyksztalcenia.Prawne:
+                        case KierunekLubProfilWyksztalcenia.DziennikarstwoInformacja:
+                        case KierunekLubProfilWyksztalcenia.OpiekaSpoleczna:
+                            liczba = rand.Next(0, 5);
+                            return liczba == 0 ? TrojmiejskieUczelnie.GdanskaWyzszaSzkolaHumanistyczna:
+                                   liczba == 1 ? TrojmiejskieUczelnie.SopockaSzkolaWyzsza:
+                                   liczba == 2 ? TrojmiejskieUczelnie.SzkolaWyzszaPsychologiiSpolecznej :
+                                   liczba == 3 ? TrojmiejskieUczelnie.WyzszaSzkolaKomunikacjiSpolecznej : 
+                                   TrojmiejskieUczelnie.Inna;
+                        case KierunekLubProfilWyksztalcenia.MatematycznoStatystyczne:
+                        case KierunekLubProfilWyksztalcenia.UslugiTransportowe:
+                        case KierunekLubProfilWyksztalcenia.ProdukcjaPrzetworstwo:
+                        case KierunekLubProfilWyksztalcenia.RolniczeLesneRybactwa:
+                        case KierunekLubProfilWyksztalcenia.UslugiDlaLudnosci:
+                        case KierunekLubProfilWyksztalcenia.OchronaSrodowiska:
+                            liczba = rand.Next(0, 3);
+                            return liczba == 0 ? TrojmiejskieUczelnie.SopockaSzkolaWyzsza :
+                                liczba == 1 ? TrojmiejskieUczelnie.WyzszaSzkolaTurystykiiHotelarstwawGdansku : TrojmiejskieUczelnie.Inna;
+                        case KierunekLubProfilWyksztalcenia.Informatyczne:
+                        case KierunekLubProfilWyksztalcenia.ArchitekturaBudownictwo:
+                        case KierunekLubProfilWyksztalcenia.InzynieryjnoTechniczne:
+                        case KierunekLubProfilWyksztalcenia.Artystyczne:
+                        default:
+                            return TrojmiejskieUczelnie.Inna;
+                    }
+                case RodzajUczelni.LiceumOgolnoksztalcace:
+                    return TrojmiejskieUczelnie.LiceumOgolnoksztalcace;
+                case RodzajUczelni.LiceumProfilowe:
+                    return TrojmiejskieUczelnie.LiceumProfilowe;
+                case RodzajUczelni.Gimnazjum:
+                    return TrojmiejskieUczelnie.Gimnazjum;
+                case RodzajUczelni.SzkolaPodstawowa:
+                    return TrojmiejskieUczelnie.SzkolaPodstawowa;
+                case RodzajUczelni.ZasadniczaSzkolaZawodowa:
+                    return TrojmiejskieUczelnie.ZasadniczaSzkolaZawodowa;
+                default:
+                    return TrojmiejskieUczelnie.Inna;
+            }
+        }
+        private static RodzajUczelni LosujRodzajUczelni(PoziomWyksztalcenia wyksztalcenie, KierunekLubProfilWyksztalcenia kierunek)
+        {
+            int liczba;
+            switch (wyksztalcenie)
+            {
+                case PoziomWyksztalcenia.Gimnazjalne:
+                    return RodzajUczelni.Gimnazjum;
+                case PoziomWyksztalcenia.SrednieOgolnoksztalcace:
+                    liczba = rand.Next(0, 2);
+                    return liczba == 0 ? RodzajUczelni.LiceumOgolnoksztalcace : RodzajUczelni.LiceumProfilowe;
+                case PoziomWyksztalcenia.SrednieZawodowe:
+                case PoziomWyksztalcenia.ZasadniczeZawodowe:
+                    return RodzajUczelni.ZasadniczaSzkolaZawodowa;
+                case PoziomWyksztalcenia.Wyzsze:
+                    switch(kierunek)
+                    {
+                        case KierunekLubProfilWyksztalcenia.Pedagogiczne:
+                        case KierunekLubProfilWyksztalcenia.Humanistyczne:
+                        case KierunekLubProfilWyksztalcenia.Spoleczne:
+                        case KierunekLubProfilWyksztalcenia.Prawne:
+                        case KierunekLubProfilWyksztalcenia.DziennikarstwoInformacja:
+                        case KierunekLubProfilWyksztalcenia.OpiekaSpoleczna:
+                        case KierunekLubProfilWyksztalcenia.UslugiDlaLudnosci:
+                        case KierunekLubProfilWyksztalcenia.RolniczeLesneRybactwa:
+                        case KierunekLubProfilWyksztalcenia.OchronaSrodowiska:
+                            liczba = rand.Next(0, 2);
+                            return liczba == 0 ? RodzajUczelni.Uniwersytet : RodzajUczelni.PozostaleSzkolyWyzsze;
+                        case KierunekLubProfilWyksztalcenia.Artystyczne:
+                            liczba = rand.Next(0, 2);
+                            return liczba == 0 ? RodzajUczelni.WyzszaSzkolaArtystyczna : RodzajUczelni.PozostaleSzkolyWyzsze;
+                        case KierunekLubProfilWyksztalcenia.OchronaBezpieczenstwo:
+                            liczba = rand.Next(0, 2);
+                            return liczba == 0 ? RodzajUczelni.Uniwersytet : RodzajUczelni.WyzszaSzkolaMorska;
+                        case KierunekLubProfilWyksztalcenia.MatematycznoStatystyczne:
+                        case KierunekLubProfilWyksztalcenia.Informatyczne:
+                        case KierunekLubProfilWyksztalcenia.ArchitekturaBudownictwo:
+                        case KierunekLubProfilWyksztalcenia.UslugiTransportowe:
+                            liczba = rand.Next(0, 3);
+                            return liczba == 0 ? RodzajUczelni.Uniwersytet :
+                                liczba == 0 ? RodzajUczelni.WyzszaSzkolaTechniczna : RodzajUczelni.PozostaleSzkolyWyzsze;
+                        case KierunekLubProfilWyksztalcenia.EkonomiaAdministracja:
+                            liczba = rand.Next(0, 3);
+                            return liczba == 0 ? RodzajUczelni.WyzszaSzkolaEkonomiczna :
+                                liczba == 0 ? RodzajUczelni.Uniwersytet : RodzajUczelni.WyzszaSzkolaTechniczna;
+                        case KierunekLubProfilWyksztalcenia.Biologiczne:
+                            liczba = rand.Next(0, 2);
+                            return liczba == 0 ? RodzajUczelni.UniwersytetMedyczny : RodzajUczelni.Uniwersytet;
+                        case KierunekLubProfilWyksztalcenia.Fizyczne:
+                            return RodzajUczelni.AkademiaWychowaniaFizycznego;
+                        case KierunekLubProfilWyksztalcenia.Medyczne:
+                            return RodzajUczelni.UniwersytetMedyczny;
+                        case KierunekLubProfilWyksztalcenia.InzynieryjnoTechniczne:
+                        case KierunekLubProfilWyksztalcenia.ProdukcjaPrzetworstwo: 
+                        default:
+                            return (RodzajUczelni)rand.Next(0, 7);
+                    }
+                case PoziomWyksztalcenia.Podstawowe:
+                case PoziomWyksztalcenia.PodstawoweNieukonczone_BezWyksztalcenia:
+                default:
+                    return RodzajUczelni.SzkolaPodstawowa;
+            }
+        }
+        private static KierunekLubProfilWyksztalcenia LosujKierunekLubProfilWyksztalcenia(PoziomWyksztalcenia wyksztalcenie)
+        {
+            int liczba;
+            switch(wyksztalcenie)
+            {
+                case PoziomWyksztalcenia.Gimnazjalne:
+                    return KierunekLubProfilWyksztalcenia.Gimnazjum;
+                case PoziomWyksztalcenia.SrednieOgolnoksztalcace:
+                    liczba = rand.Next(0,3);
+                    return liczba==0?KierunekLubProfilWyksztalcenia.LiceumOgolnoksztalcace:
+                        liczba==1?KierunekLubProfilWyksztalcenia.LiceumProfilowane:KierunekLubProfilWyksztalcenia.SzkolaPonadgimnazjalna;
+                case PoziomWyksztalcenia.SrednieZawodowe:
+                case PoziomWyksztalcenia.ZasadniczeZawodowe:
+                    liczba = rand.Next(0,6);
+                    return liczba==0?KierunekLubProfilWyksztalcenia.Fryzjerskie:
+                        liczba==1?KierunekLubProfilWyksztalcenia.GastronomicznoHotelarskie:
+                        liczba==2?KierunekLubProfilWyksztalcenia.Odziezowe:
+                        liczba==3?KierunekLubProfilWyksztalcenia.Samochodowe:
+                        liczba==4?KierunekLubProfilWyksztalcenia.SzkolaZawodowa:KierunekLubProfilWyksztalcenia.Technikum;
+                case PoziomWyksztalcenia.Wyzsze:
+                    return (KierunekLubProfilWyksztalcenia)rand.Next(0, 21);
+                case PoziomWyksztalcenia.Podstawowe:
+                case PoziomWyksztalcenia.PodstawoweNieukonczone_BezWyksztalcenia:
+                default:
+                    return rand.Next(0, 100) > 85?KierunekLubProfilWyksztalcenia.SzkolySpecjalne:KierunekLubProfilWyksztalcenia.SzkolaPodstawowa;
+            }
         }
     }
 }
