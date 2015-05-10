@@ -5,32 +5,37 @@
 <config key="internal_node_subsettings">
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
-<config key="model"/>
+<config key="model">
+<config key="rowFilter">
+<entry key="RowFilter_TypeID" type="xstring" value="RowNumber_RowFilter"/>
+<entry key="RowRangeStart" type="xint" value="0"/>
+<entry key="RowRangeEnd" type="xint" value="9999"/>
+<entry key="RowRangeInclude" type="xboolean" value="true"/>
+</config>
+</config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.viz.table.TableNodeFactory"/>
-<entry key="node-name" type="xstring" value="Interactive Table"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.row.RowFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Row Filter"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
 <entry key="node-bundle-version" type="xstring" value="2.11.3.0046666"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Interactive Table"/>
+<entry key="name" type="xstring" value="Row Filter"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
-<config key="ports"/>
-<config key="internalObjects">
-<entry key="location" type="xstring" value="internalTables"/>
-<config key="content">
-<config key="object_0">
-<entry key="index" type="xint" value="0"/>
-<entry key="type" type="xstring" value="table"/>
-<entry key="table_dir_location" type="xstring" value="object_0"/>
-</config>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 10000, Cols: 18"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="87b295d8-85ea-4d40-be5d-efad64376a3d"/>
+<entry key="file_store_id" type="xstring" value="2f2721cb-1fc1-4fbd-b925-afac6b53cb4b"/>
 </config>
 </config>

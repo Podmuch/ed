@@ -41,13 +41,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="104701"/>
+<entry key="IntCell" type="xint" value="105044"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="645299"/>
+<entry key="IntCell" type="xint" value="644956"/>
 </config>
 </config>
 </config>
@@ -122,13 +122,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="39652"/>
+<entry key="IntCell" type="xint" value="40020"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="169169"/>
+<entry key="IntCell" type="xint" value="169540"/>
 </config>
 </config>
 </config>
@@ -197,13 +197,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="93617"/>
+<entry key="IntCell" type="xint" value="93802"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="167756"/>
+<entry key="IntCell" type="xint" value="167945"/>
 </config>
 </config>
 </config>
@@ -248,13 +248,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="329687"/>
+<entry key="IntCell" type="xint" value="330516"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="420313"/>
+<entry key="IntCell" type="xint" value="419484"/>
 </config>
 </config>
 </config>
@@ -280,37 +280,37 @@
 <config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Gastronomiczno-Hotelarskie"/>
+<entry key="StringCell" type="xstring" value="Technikum"/>
 </config>
 </config>
 <config key="2">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Technikum"/>
+<entry key="StringCell" type="xstring" value="Szkola Zawodowa"/>
 </config>
 </config>
 <config key="3">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Samochodowe"/>
+<entry key="StringCell" type="xstring" value="Fryzjerskie"/>
 </config>
 </config>
 <config key="4">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Szkola Zawodowa"/>
+<entry key="StringCell" type="xstring" value="Odziezowe"/>
 </config>
 </config>
 <config key="5">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Fryzjerskie"/>
+<entry key="StringCell" type="xstring" value="Gastronomiczno-Hotelarskie"/>
 </config>
 </config>
 <config key="6">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Odziezowe"/>
+<entry key="StringCell" type="xstring" value="Samochodowe"/>
 </config>
 </config>
 <config key="7">
@@ -328,73 +328,73 @@
 <config key="9">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Szkola Ponadgimnazjalna"/>
+<entry key="StringCell" type="xstring" value="Liceum Profilowane"/>
 </config>
 </config>
 <config key="10">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Liceum Profilowane"/>
+<entry key="StringCell" type="xstring" value="Liceum Ogolnoksztalcace"/>
 </config>
 </config>
 <config key="11">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Liceum Ogolnoksztalcace"/>
+<entry key="StringCell" type="xstring" value="Szkola Ponadgimnazjalna"/>
 </config>
 </config>
 <config key="12">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Pedagogiczne"/>
+<entry key="StringCell" type="xstring" value="Fizyczne"/>
 </config>
 </config>
 <config key="13">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Rolnicze Lesne lub Rybactwo"/>
+<entry key="StringCell" type="xstring" value="Dziennikarstwo i Informacja"/>
 </config>
 </config>
 <config key="14">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Biologiczne"/>
+<entry key="StringCell" type="xstring" value="Artystyczne"/>
 </config>
 </config>
 <config key="15">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Prawne"/>
+<entry key="StringCell" type="xstring" value="Pedagogiczne"/>
 </config>
 </config>
 <config key="16">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Ekonomia i Administracja"/>
+<entry key="StringCell" type="xstring" value="Informatyczne"/>
 </config>
 </config>
 <config key="17">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Informatyczne"/>
+<entry key="StringCell" type="xstring" value="Spoleczne"/>
 </config>
 </config>
 <config key="18">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Opieka Spoleczna"/>
+<entry key="StringCell" type="xstring" value="Biologiczne"/>
 </config>
 </config>
 <config key="19">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Spoleczne"/>
+<entry key="StringCell" type="xstring" value="Prawne"/>
 </config>
 </config>
 <config key="20">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Medyczne"/>
+<entry key="StringCell" type="xstring" value="Ochrona i Bezpieczenstwo"/>
 </config>
 </config>
 <config key="21">
@@ -406,61 +406,61 @@
 <config key="22">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Artystyczne"/>
+<entry key="StringCell" type="xstring" value="Matematyczno-Statystyczne"/>
 </config>
 </config>
 <config key="23">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Dziennikarstwo i Informacja"/>
+<entry key="StringCell" type="xstring" value="Medyczne"/>
 </config>
 </config>
 <config key="24">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Architektura lub Budownictwo"/>
+<entry key="StringCell" type="xstring" value="Ekonomia i Administracja"/>
 </config>
 </config>
 <config key="25">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Uslugi dla Ludnosci"/>
+<entry key="StringCell" type="xstring" value="Rolnicze Lesne lub Rybactwo"/>
 </config>
 </config>
 <config key="26">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Ochrona i Bezpieczenstwo"/>
+<entry key="StringCell" type="xstring" value="Inzynieryjno-Techniczne"/>
 </config>
 </config>
 <config key="27">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Fizyczne"/>
+<entry key="StringCell" type="xstring" value="Produkcja i Przetworstwo"/>
 </config>
 </config>
 <config key="28">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Produkcja i Przetworstwo"/>
+<entry key="StringCell" type="xstring" value="Architektura lub Budownictwo"/>
 </config>
 </config>
 <config key="29">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Ochrona Srodowiska"/>
+<entry key="StringCell" type="xstring" value="Uslugi dla Ludnosci"/>
 </config>
 </config>
 <config key="30">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Inzynieryjno-Techniczne"/>
+<entry key="StringCell" type="xstring" value="Ochrona Srodowiska"/>
 </config>
 </config>
 <config key="31">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Matematyczno-Statystyczne"/>
+<entry key="StringCell" type="xstring" value="Opieka Spoleczna"/>
 </config>
 </config>
 </config>
@@ -479,13 +479,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="5358"/>
+<entry key="IntCell" type="xint" value="5382"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="187049"/>
+<entry key="IntCell" type="xint" value="186721"/>
 </config>
 </config>
 </config>
@@ -548,13 +548,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="7502"/>
+<entry key="IntCell" type="xint" value="7486"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="675357"/>
+<entry key="IntCell" type="xint" value="674802"/>
 </config>
 </config>
 </config>
@@ -623,13 +623,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="18662"/>
+<entry key="IntCell" type="xint" value="18896"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="192603"/>
+<entry key="IntCell" type="xint" value="192301"/>
 </config>
 </config>
 </config>
@@ -692,13 +692,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="37338"/>
+<entry key="IntCell" type="xint" value="37508"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="299512"/>
+<entry key="IntCell" type="xint" value="299816"/>
 </config>
 </config>
 </config>
@@ -718,31 +718,31 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="do 12 miesiecy"/>
+<entry key="StringCell" type="xstring" value="pracujacy"/>
 </config>
 </config>
 <config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="do 6 miesiecy"/>
+<entry key="StringCell" type="xstring" value="do 12 miesiecy"/>
 </config>
 </config>
 <config key="2">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="ponad 12 miesiecy"/>
+<entry key="StringCell" type="xstring" value="do 6 miesiecy"/>
 </config>
 </config>
 <config key="3">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="do 3 miesiecy"/>
+<entry key="StringCell" type="xstring" value="ponad 12 miesiecy"/>
 </config>
 </config>
 <config key="4">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="pracujacy"/>
+<entry key="StringCell" type="xstring" value="do 3 miesiecy"/>
 </config>
 </config>
 </config>
@@ -761,13 +761,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="104701"/>
+<entry key="IntCell" type="xint" value="22996"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="190633"/>
+<entry key="IntCell" type="xint" value="644956"/>
 </config>
 </config>
 </config>
@@ -799,13 +799,13 @@
 <config key="2">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Liceum Profilowe"/>
+<entry key="StringCell" type="xstring" value="Liceum Ogolnoksztalcace"/>
 </config>
 </config>
 <config key="3">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Liceum Ogolnoksztalcace"/>
+<entry key="StringCell" type="xstring" value="Liceum Profilowe"/>
 </config>
 </config>
 <config key="4">
@@ -847,13 +847,13 @@
 <config key="10">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Wyzsza Szkola Artystyczna"/>
+<entry key="StringCell" type="xstring" value="Wyzsza Szkola Morska"/>
 </config>
 </config>
 <config key="11">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Wyzsza Szkola Morska"/>
+<entry key="StringCell" type="xstring" value="Wyzsza Szkola Artystyczna"/>
 </config>
 </config>
 <config key="12">
@@ -878,13 +878,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="3366"/>
+<entry key="IntCell" type="xint" value="3411"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="290085"/>
+<entry key="IntCell" type="xint" value="290015"/>
 </config>
 </config>
 </config>
@@ -953,13 +953,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="5333"/>
+<entry key="IntCell" type="xint" value="5252"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="652824"/>
+<entry key="IntCell" type="xint" value="652783"/>
 </config>
 </config>
 </config>
@@ -991,13 +991,13 @@
 <config key="2">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Liceum Profilowe"/>
+<entry key="StringCell" type="xstring" value="Liceum Ogolnoksztalcace"/>
 </config>
 </config>
 <config key="3">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Liceum Ogolnoksztalcace"/>
+<entry key="StringCell" type="xstring" value="Liceum Profilowe"/>
 </config>
 </config>
 <config key="4">
@@ -1051,25 +1051,25 @@
 <config key="12">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Akademia Sztuk Pieknych"/>
+<entry key="StringCell" type="xstring" value="Akademia Marynarki Wojennej"/>
 </config>
 </config>
 <config key="13">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Akademia Marynarki Wojennej"/>
+<entry key="StringCell" type="xstring" value="Akademia Sztuk Pieknych"/>
 </config>
 </config>
 <config key="14">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Szkola Wyzsza Psychologii Spolecznej"/>
+<entry key="StringCell" type="xstring" value="Wyzsza Szkola Komunikacji Spolecznej"/>
 </config>
 </config>
 <config key="15">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Wyzsza Szkola Komunikacji Spolecznej"/>
+<entry key="StringCell" type="xstring" value="Szkola Wyzsza Psychologii Spolecznej"/>
 </config>
 </config>
 <config key="16">
@@ -1081,13 +1081,13 @@
 <config key="17">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Wyzsza Szkola Bankowa"/>
+<entry key="StringCell" type="xstring" value="Wyzsza Szkola Administracji i Biznesu"/>
 </config>
 </config>
 <config key="18">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="Wyzsza Szkola Administracji i Biznesu"/>
+<entry key="StringCell" type="xstring" value="Wyzsza Szkola Bankowa"/>
 </config>
 </config>
 </config>
@@ -1106,13 +1106,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="1667"/>
+<entry key="IntCell" type="xint" value="1693"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="290085"/>
+<entry key="IntCell" type="xint" value="290015"/>
 </config>
 </config>
 </config>
@@ -1193,13 +1193,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="20089"/>
+<entry key="IntCell" type="xint" value="20367"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="235295"/>
+<entry key="IntCell" type="xint" value="235637"/>
 </config>
 </config>
 </config>
@@ -1274,13 +1274,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="84353"/>
+<entry key="IntCell" type="xint" value="84007"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="151526"/>
+<entry key="IntCell" type="xint" value="149523"/>
 </config>
 </config>
 </config>
@@ -1349,13 +1349,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="45473"/>
+<entry key="IntCell" type="xint" value="45756"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="260386"/>
+<entry key="IntCell" type="xint" value="260667"/>
 </config>
 </config>
 </config>
@@ -1375,13 +1375,13 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="od 10 do 15 m2"/>
+<entry key="StringCell" type="xstring" value="ponad 30 m2"/>
 </config>
 </config>
 <config key="1">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="ponad 30 m2"/>
+<entry key="StringCell" type="xstring" value="od 10 do 15 m2"/>
 </config>
 </config>
 <config key="2">
@@ -1424,13 +1424,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="43179"/>
+<entry key="IntCell" type="xint" value="43213"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="171494"/>
+<entry key="IntCell" type="xint" value="171200"/>
 </config>
 </config>
 </config>
@@ -1493,13 +1493,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="52251"/>
+<entry key="IntCell" type="xint" value="52457"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="355951"/>
+<entry key="IntCell" type="xint" value="356077"/>
 </config>
 </config>
 </config>
@@ -1544,13 +1544,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="14447"/>
+<entry key="IntCell" type="xint" value="15308"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="735553"/>
+<entry key="IntCell" type="xint" value="734692"/>
 </config>
 </config>
 </config>
@@ -1595,13 +1595,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="14521"/>
+<entry key="IntCell" type="xint" value="15168"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="735479"/>
+<entry key="IntCell" type="xint" value="734832"/>
 </config>
 </config>
 </config>
@@ -1646,13 +1646,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="14838"/>
+<entry key="IntCell" type="xint" value="14918"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="735162"/>
+<entry key="IntCell" type="xint" value="735082"/>
 </config>
 </config>
 </config>
@@ -1697,13 +1697,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="15198"/>
+<entry key="IntCell" type="xint" value="15025"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="734802"/>
+<entry key="IntCell" type="xint" value="734975"/>
 </config>
 </config>
 </config>
@@ -1748,13 +1748,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="179911"/>
+<entry key="IntCell" type="xint" value="180389"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="570089"/>
+<entry key="IntCell" type="xint" value="569611"/>
 </config>
 </config>
 </config>
@@ -1817,13 +1817,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="7771"/>
+<entry key="IntCell" type="xint" value="7450"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="347899"/>
+<entry key="IntCell" type="xint" value="350261"/>
 </config>
 </config>
 </config>
@@ -1874,13 +1874,13 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="120067"/>
+<entry key="IntCell" type="xint" value="120674"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="412010"/>
+<entry key="IntCell" type="xint" value="412481"/>
 </config>
 </config>
 </config>

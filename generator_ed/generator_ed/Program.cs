@@ -462,7 +462,7 @@ namespace generator_ed
                 ProgiAbsolwentow iloscAbsolwentow = LosujIloscAbsolwentow(nazwaUczelni);
                 //Przedzial Bycia Bezrobotnym
                 PrzedzialyByciaBezrobotnym przedzialByciaBezrobotnym;
-                if(stanBezrobotnego)
+                if(!stanBezrobotnego)
                 {
                     przedzialByciaBezrobotnym = PrzedzialyByciaBezrobotnym.pracujacy;
                 }
