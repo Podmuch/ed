@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="55" version="2.0">
 <workbenchAdvisor/>
-<window height="903" width="1595" x="71" y="91">
+<window height="903" maximized="true" width="1595" x="71" y="91">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.jdt.ui.TypeHierarchy"/>
 <orientation position="512" view="org.eclipse.jdt.ui.PackageExplorer"/>
