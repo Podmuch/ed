@@ -1,3 +1,4 @@
+E:\git\ed\Dane\Dane.csv
 C:\Users\Dominik\Documents\GitHub\ed\Dane.csv
 ..\..\ed\Dane.csv
 \..\..\ed\Dane.csv
