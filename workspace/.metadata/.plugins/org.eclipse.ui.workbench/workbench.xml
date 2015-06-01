@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="2" version="2.0">
+<workbench progressCount="49" version="2.0">
 <workbenchAdvisor/>
-<window height="780" maximized="true" width="1108" x="1087" y="11">
+<window height="1032" maximized="true" width="1108" x="687" y="195">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.jdt.ui.TypeHierarchy"/>
 <orientation position="512" view="org.eclipse.jdt.ui.PackageExplorer"/>
@@ -9,17 +9,24 @@
 <orientation position="512" view="org.eclipse.ui.texteditor.TemplatesView"/>
 <orientation position="512" view="org.eclipse.ui.views.ContentOutline"/>
 </fastViewData>
-<perspectiveBar/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
 <coolbarLayout>
-<coolItem id="main" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="126" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="main" itemType="typeToolBarContribution" x="122" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="141" y="22"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="80" y="22"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="53" y="22"/>
-<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="114" y="22"/>
-<coolItem id="org.knime.workbench.editor.WorkflowEditor" itemType="typeToolBarContribution" x="634" y="22"/>
-<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="57" y="22"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.knime.workbench.editor.WorkflowEditor" itemType="typeToolBarContribution" x="649" y="22"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="206" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
 <page aggregateWorkingSetId="Aggregate for window 1430601389657" focus="true" label="Workspace - &lt;Java&gt;">
 <editors>
@@ -27,18 +34,21 @@
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="2"/>
 <part id="0"/>
 <part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
+<part id="6"/>
+<part id="7"/>
+<part id="8"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="2: zad3" title="2: zad3" tooltip="2: zad3" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="0: zad3" title="0: zad3" tooltip="0: zad3" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/zad3/workflow.knime"/>
-</editor>
-<editor id="org.knime.workbench.editor.WorkflowEditor" name="workflow.knime" partName="0: zad2" title="0: zad2" tooltip="0: zad2" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="knime://LOCAL/zad2/workflow.knime"/>
 </editor>
 </editors>
 <views>
@@ -72,6 +82,10 @@
 <alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
 <alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
 <show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
 <show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
 <show_view_action id="org.eclipse.jdt.ui.SourceView"/>
@@ -137,17 +151,14 @@
 </folder>
 </info>
 <info folder="true" part="bottom" ratio="0.74760383" ratioLeft="468" ratioRight="158" relationship="4" relative="org.eclipse.ui.internal.ViewStack@8e3c441">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="right" ratio="0.74899864" ratioLeft="561" ratioRight="188" relationship="2" relative="org.eclipse.ui.internal.ViewStack@8e3c441">
@@ -166,6 +177,14 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.17787234" ratioLeft="209" ratioRight="966" relationship="2" relative="org.eclipse.ui.internal.ViewStack@8e3c441"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@b170046" ratio="0.8964758" ratioLeft="814" ratioRight="94" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
 </mainWindow>
 </layout>
 </perspective>
@@ -174,54 +193,42 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/zad2/workflow.knime"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/KNIME_project/workflow.knime"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/zad3/workflow.knime"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/zad2/workflow.knime"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/zad2/workflow.knime"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/zad2/workflow.knime"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/zad2/workflow.knime"/>
-<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/zad3/workflow.knime"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/zad2/workflow.knime"/>
 </editors>
-<item historyLabel="1: zad2" index="0"/>
-<item historyLabel="2: KNIME_project" index="1"/>
-<item historyLabel="1: zad2" index="0"/>
-<item historyLabel="2: zad3" index="2"/>
-<item historyLabel="0: zad3" index="2"/>
+<item historyLabel="2: zad3" index="1"/>
+<item historyLabel="0: zad2" index="0"/>
+<item historyLabel="2: zad3" index="1"/>
+<item historyLabel="0: zad2" index="0"/>
+<item historyLabel="2: zad3" index="1"/>
+<item historyLabel="0: zad2" index="0"/>
+<item historyLabel="2: zad3" index="1"/>
+<item historyLabel="0: zad2" index="2"/>
+<item historyLabel="2: zad3" index="1"/>
 <item historyLabel="2: zad2" index="3"/>
-<item historyLabel="0: zad3" index="2"/>
-<item historyLabel="0: zad2" index="4"/>
-<item historyLabel="2: zad3" index="2"/>
-<item historyLabel="0: zad2" index="4"/>
-<item historyLabel="2: zad3" index="2"/>
-<item historyLabel="0: zad2" index="4"/>
-<item historyLabel="2: zad3" index="2"/>
-<item historyLabel="0: zad2" index="4"/>
-<item historyLabel="2: zad3" index="2"/>
-<item historyLabel="0: zad2" index="4"/>
-<item historyLabel="2: zad3" index="2"/>
-<item historyLabel="2: zad3" index="2"/>
-<item historyLabel="0: zad2" index="4"/>
-<item historyLabel="2: zad3" index="2"/>
-<item historyLabel="0: zad2" index="4"/>
-<item historyLabel="2: zad3" index="2"/>
-<item historyLabel="0: zad2" index="4"/>
-<item historyLabel="2: zad3" index="2"/>
-<item historyLabel="0: zad3" index="2"/>
-<item historyLabel="2: zad2" index="5"/>
-<item historyLabel="0: zad3" index="2"/>
-<item historyLabel="0: zad3" index="2"/>
-<item historyLabel="2: zad2" index="6"/>
-<item historyLabel="0: zad2" index="6"/>
-<item historyLabel="2: zad3" index="7"/>
-<item historyLabel="0: zad2" index="6"/>
-<item historyLabel="2: zad3" index="7"/>
-<item historyLabel="0: zad2" index="6"/>
-<item historyLabel="2: zad3" index="7"/>
-<item historyLabel="0: zad2" index="6"/>
-<item historyLabel="2: zad3" index="7"/>
-<item historyLabel="0: zad2" index="8"/>
-<item active="true" historyLabel="2: zad3" index="7"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item active="true" historyLabel="0: zad3" index="1"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -232,6 +239,7 @@
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
 <trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
 </trimArea>
