@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="49" version="2.0">
 <workbenchAdvisor/>
-<window height="1032" maximized="true" width="1108" x="687" y="195">
+<window height="1032" width="1829" x="51" y="20">
 <fastViewData fastViewLocation="1024">
 <orientation position="512" view="org.eclipse.jdt.ui.TypeHierarchy"/>
 <orientation position="512" view="org.eclipse.jdt.ui.PackageExplorer"/>
@@ -35,14 +35,6 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
 </presentation>
 </folder>
 </info>
@@ -168,7 +160,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@26833efe" ratio="0.8362627" ratioLeft="904" ratioRight="177" relationship="2" relative="org.eclipse.ui.internal.ViewStack@8e3c441">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@26833efe" ratio="0.88446474" ratioLeft="1355" ratioRight="177" relationship="2" relative="org.eclipse.ui.internal.ViewStack@8e3c441">
 <folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
@@ -197,9 +189,6 @@
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/zad2/workflow.knime"/>
 <editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.knime.workbench.editor.WorkflowEditor" uri="knime://LOCAL/zad2/workflow.knime"/>
 </editors>
-<item historyLabel="2: zad3" index="1"/>
-<item historyLabel="0: zad2" index="0"/>
-<item historyLabel="2: zad3" index="1"/>
 <item historyLabel="0: zad2" index="0"/>
 <item historyLabel="2: zad3" index="1"/>
 <item historyLabel="0: zad2" index="0"/>
@@ -207,6 +196,13 @@
 <item historyLabel="0: zad2" index="2"/>
 <item historyLabel="2: zad3" index="1"/>
 <item historyLabel="2: zad2" index="3"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
+<item historyLabel="0: zad3" index="1"/>
 <item historyLabel="0: zad3" index="1"/>
 <item historyLabel="0: zad3" index="1"/>
 <item historyLabel="0: zad3" index="1"/>
